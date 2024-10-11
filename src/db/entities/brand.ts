@@ -1,6 +1,14 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  OneToMany,
+  Unique,
+} from 'typeorm';
+import { Model } from './model';
 
-@Entity()
+@Entity('brands')
+@Unique(['name'])
 export class Brand {
   @PrimaryGeneratedColumn()
   id: number;
@@ -8,6 +16,6 @@ export class Brand {
   @Column()
   name: string;
 
-  @Column()
-  average_price: number;
+  @OneToMany(() => Model, (model) => model.brand)
+  models: Model[];
 }
