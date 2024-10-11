@@ -58,7 +58,7 @@ Me resulto muy sencillo Nest.js y su integración con diferentes herramientas
 me facilitó mucho el trabajo por ejemplo a la hora de hacer validaciones o
 con la documentación de swagger.
 
-Encontrarán que quiza la estructura está demasiado estructurada para una API
+Encontrarán que quiza la solución está demasiado estructurada para una API
 tan sencilla, es con el objetivo de demostrar mi comprensión de conceptos en
 arquitectura de software y que sigo las recomendaciones de cada framework que
 utilizo.
