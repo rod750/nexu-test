@@ -48,12 +48,12 @@ export class BrandsController {
     example: [
       {
         id: 1,
-        name: 'MDX',
+        nombre: 'MDX',
         average_price: 702109.5,
       },
       {
         id: 2,
-        name: 'RDX',
+        nombre: 'RDX',
         average_price: 702109.5,
       },
     ],
